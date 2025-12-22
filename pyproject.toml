@@ -1,0 +1,15 @@
+[project]
+name = "casino"
+version = "1.0.0"
+description = "Casino simulation with players and geese"
+authors = [{name = "Vova", email = "vova_smolyaninov99@mail.ru"}]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/v0sm/casino"
+Repository = "https://github.com/v0sm/casino"
+
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
