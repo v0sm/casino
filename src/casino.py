@@ -126,7 +126,7 @@ class Casino:
             print(f"[EVENT] {player.name} wanted to place bet, but he can't bring any more profit for casino")
             return
 
-        bet = random.randint(5, min(50, player.balance))
+        bet = random.randint(1, min(50, player.balance))
 
         try:
             player.place_bet(bet)
