@@ -6,3 +6,7 @@ if __name__ == "__main__":
     print("\n" + "=" * 60 + "\n")
 
     run_simulation(steps=20, seed=42)
+
+
+
+# ПОПРАВИТЬ get_item
