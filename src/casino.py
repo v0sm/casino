@@ -147,7 +147,7 @@ class Casino:
             print(f"[EVENT] {player.name} хотел обменять деньги, но у него 0$")
             return
 
-        amount = random.randint(10, min(100, player.balance))
+        amount = random.randint(1, min(100, player.balance))
 
         try:
             chips_to_give = self._extract_chips_from_bank(amount)
